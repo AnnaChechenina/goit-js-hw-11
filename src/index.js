@@ -83,11 +83,11 @@ function createGalleryInfo(items, galleryColections) {
   galleryColections.insertAdjacentHTML('beforeend', galleryMarkup);
 }
 
-function pageScroll() {
-  const { height: cardHeight } =
-    galleryColections.firstElementChild.getBoundingClientRect();
-  window.scrollBy({
-    top: cardHeight * 2,
-    behavior: 'smooth',
-  });
-}
+// function pageScroll() {
+//   const { height: cardHeight } =
+//     galleryColections.firstElementChild.getBoundingClientRect();
+//   window.scrollBy({
+//     top: cardHeight * 2,
+//     behavior: 'smooth',
+//   });
+// }
