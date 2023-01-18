@@ -57,7 +57,7 @@ img {
 }
 
 .photo-card {
-  /* flex-basis: calc((100% -30px) / 5); */
+  flex-basis: calc((100% -30px) / 5);
   gap: 20px;
   border: 1px solid black;
 }
@@ -84,4 +84,7 @@ img {
   border: 1px solid black;
   border-radius: 2px;
   cursor: pointer;
+}
+.is-seen {
+  display: block;
 }

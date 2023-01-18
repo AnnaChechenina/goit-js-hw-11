@@ -24,6 +24,7 @@ export default class GalleryApiService {
       return response;
     } catch (error) {}
   }
+
   get searchQuery() {
     return this.query;
   }
