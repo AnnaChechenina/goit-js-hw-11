@@ -77,9 +77,10 @@ function createGalleryList(items) {
   }
 
   if (items.data.totalHits <= allItems.length) {
-    return Notiflix.Notify.failure(
+    Notiflix.Notify.failure(
       "We're sorry, but you've reached the end of search results."
     );
+    loadBtn.classList.remove('is-seen');
   }
 }
 
